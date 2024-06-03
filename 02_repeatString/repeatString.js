@@ -1,5 +1,6 @@
-const repeatString = function() {
-
+const repeatString = function(str, counter) {
+    console.log("Hello World!");
+    console.log(str);
 };
 
 // Do not edit below this line
