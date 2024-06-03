@@ -1,4 +1,6 @@
 const repeatString = function(str, counter) {
+    const number = Math.floor(Math.random() * 1000) ;
+    console.log(number);
     let repeatedString = '';
     let i = 0;
     if (counter < 0) {
@@ -10,6 +12,5 @@ const repeatString = function(str, counter) {
     }
     return repeatedString;
 };
-
-// Do not edit below this line
-module.exports = repeatString;
+let test = repeatString("hey", 3);
+console.log(test);
